@@ -9,7 +9,14 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-const algorithms = [];
+const algorithms = [
+  {
+    name: "Ceaser Cipher",
+    description: "A simple demo of shift cipher",
+    href: "/algorithms/ceaser-cipher",
+    icon: ArrowPathIcon,
+  },
+];
 const callsToAction: any[] = [
   // { name: "Watch demo", href: "#", icon: PlayCircleIcon },
   // { name: "Contact sales", href: "#", icon: PhoneIcon },
