@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
+import Header from "@/components/layout/Header";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -16,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}`}>{children}</body>
+      <body className={`${inter.variable}`}>
+        <Header />
+        {children}
+        {/* <footer className="bg-gray-800">&copy; 2021</footer> */}
+      </body>
     </html>
   );
 }
