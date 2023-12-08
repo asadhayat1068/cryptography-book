@@ -6,6 +6,7 @@ import {
   Bars3Icon,
   GiftIcon,
   XMarkIcon,
+  CircleStackIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
@@ -20,7 +21,7 @@ const algorithms = [
     name: "Scytale Cipher",
     description: "A simple demo of scytale cipher",
     href: "/algorithms/scytale-cipher",
-    icon: ArrowPathIcon,
+    icon: CircleStackIcon,
   },
 ];
 const callsToAction: any[] = [
