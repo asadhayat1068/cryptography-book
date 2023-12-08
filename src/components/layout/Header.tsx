@@ -16,6 +16,12 @@ const algorithms = [
     href: "/algorithms/ceaser-cipher",
     icon: ArrowPathIcon,
   },
+  {
+    name: "Scytale Cipher",
+    description: "A simple demo of scytale cipher",
+    href: "/algorithms/scytale-cipher",
+    icon: ArrowPathIcon,
+  },
 ];
 const callsToAction: any[] = [
   // { name: "Watch demo", href: "#", icon: PlayCircleIcon },
