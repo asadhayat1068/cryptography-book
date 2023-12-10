@@ -14,13 +14,13 @@ const algorithms = [
   {
     name: "Ceaser Cipher",
     description: "A simple demo of shift cipher",
-    href: "/algorithms/ceaser-cipher",
+    href: "algorithms/ceaser-cipher",
     icon: ArrowPathIcon,
   },
   {
     name: "Scytale Cipher",
     description: "A simple demo of scytale cipher",
-    href: "/algorithms/scytale-cipher",
+    href: "algorithms/scytale-cipher",
     icon: CircleStackIcon,
   },
 ];
